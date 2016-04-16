@@ -8,14 +8,14 @@
 #      filter the list of cities. On the bottom of the screen, there is a table with
 #      the list of best and worst cities.
 #      
-#      Date            Developer           Comments
-#      2016 Apr 16     Shamik Mitra        Initial Version
+#      Date            Developer                    Comments
+#      2016 Apr 16     Shivanand R Koppalkar        Initial Version
 
 library(shiny)
 library(leaflet)
 
 # Load the list of regions, which will be used to populate the drop down list for regions
-DataRegions <- read.csv("data/regions.csv",stringsAsFactors=FALSE)
+DataRegions <- read.csv("/regions.csv",stringsAsFactors=FALSE)
 
 # Set the default region
 ShowRegion <- "World"
@@ -253,7 +253,7 @@ shinyUI(fluidPage(
                       width = 150, 
                       height = "auto",
                       
-                      a("Help documentation", href="https://shamikmitra.shinyapps.io/Help/", target="_blank")
+                      a("Help documentation", href="https://shivanandkoppalkar.shinyapps.io/Help/", target="_blank")
                       
         ),
         
