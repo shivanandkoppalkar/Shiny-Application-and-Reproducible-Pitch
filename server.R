@@ -4,8 +4,8 @@
 #      project. This script filters the list of cities based on the user input and
 #      also builds the output map and tables.
 #      
-#      Date            Developer           Comments
-#      2016 Apr 16     Shamik Mitra        Initial Version
+#      Date            Developer                    Comments
+#      2016 Apr 16     Shivanand R Koppalkar        Revised Version
 
 library(shiny)
 library(leaflet)
