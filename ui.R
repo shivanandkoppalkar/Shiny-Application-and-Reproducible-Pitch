@@ -15,7 +15,7 @@ library(shiny)
 library(leaflet)
 
 # Load the list of regions, which will be used to populate the drop down list for regions
-DataRegions <- read.csv("/regions.csv",stringsAsFactors=FALSE)
+DataRegions <- read.csv("regions.csv",stringsAsFactors=FALSE)
 
 # Set the default region
 ShowRegion <- "World"

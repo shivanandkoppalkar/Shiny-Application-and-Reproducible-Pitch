@@ -12,8 +12,8 @@ library(leaflet)
 
 
 # Read the data for the list of cities and countries. This is executed once at the beginning of the server
-DataCities <- read.csv("/cities.csv",stringsAsFactors=FALSE)
-DataCountries <- read.csv("/countries.csv",stringsAsFactors=FALSE)
+DataCities <- read.csv("cities.csv",stringsAsFactors=FALSE)
+DataCountries <- read.csv("countries.csv",stringsAsFactors=FALSE)
 DataCountries <- DataCountries[order(DataCountries$Country),]
 
 
@@ -66,7 +66,7 @@ FormOutputMap <- function(ChartCities) {
     OutputMap <- leaflet(ChartCities) %>%
         
                 # Add the tiles from Thunderforest
-                 addTiles(urlTemplate = "http://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png", 
+                 addTiles(urlTemplate = "https://{abc}.tile.thunderforest.com/transport/{z}/{x}/{y}.png", 
                           attribution = '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>') %>%
         
                 # Add the Circle markers for the cities
