@@ -12,8 +12,8 @@ library(leaflet)
 
 
 # Read the data for the list of cities and countries. This is executed once at the beginning of the server
-DataCities <- read.csv("data/cities.csv",stringsAsFactors=FALSE)
-DataCountries <- read.csv("data/countries.csv",stringsAsFactors=FALSE)
+DataCities <- read.csv("/cities.csv",stringsAsFactors=FALSE)
+DataCountries <- read.csv("/countries.csv",stringsAsFactors=FALSE)
 DataCountries <- DataCountries[order(DataCountries$Country),]
 
 
