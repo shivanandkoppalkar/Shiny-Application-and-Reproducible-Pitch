@@ -1,0 +1,10 @@
+name: ShinyApplication
+account: shivanandrkoppalkar
+server: shinyapps.io
+appId: 176824
+bundleId: 810383
+url: https://shivanandrkoppalkar.shinyapps.io/ShinyApplication/
+when: 1493632240.87856
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: about.html|about.md|bikes.xlsx|bikeshops.xlsx|helper.R|orders.xlsx|README.md
