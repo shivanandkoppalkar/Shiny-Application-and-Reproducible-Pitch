@@ -3,7 +3,7 @@
 
 ## Data
 
-The data was simulated using a set of scripts I created as part of a side project called `orderSimulatoR`. The data simulation is intended to mimic real-world sales data for an organization. The data contains information related to customer orders such as order.id, products purchased, customer information (name and location), unit price, quantity sold, and so on. The simulated data was then used for analysis purposes as part of the __Sales Analytics Dashboard__. 
+The data was simulated using a set of scripts I created as part of a side project called `Order Simulator`. The data simulation is intended to mimic real-world sales data for an organization. The data contains information related to customer orders such as order.id, products purchased, customer information (name and location), unit price, quantity sold, and so on. The simulated data was then used for analysis purposes as part of the __Sales Analytics Dashboard__. 
 
 ## How to Explore
 
@@ -22,7 +22,7 @@ There's a lot you can do with the __Sales Analytics Dashboard__. Here's a few su
 
 ## Enjoy & Leave Feedback
 
-Let me know what you think could improve on this project. Feel free to leave me an [email](mailto:uk@innovate-software.com). The source code is available on GitHub [here](https://github.com/mdancho84/datasciencecoursera/tree/master/DevelopingDataProducts/shiny-app).
+Let me know what you think could improve on this project. Feel free to leave me an [email](mailto:uk@innovate-software.com). The source code is available on GitHub [here](https://github.com/shivanandkoppalkar/Shiny-Application-and-Reproducible-Pitch).
 
 
 
