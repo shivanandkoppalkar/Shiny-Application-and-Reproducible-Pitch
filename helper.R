@@ -7,15 +7,15 @@ library(stringr)
 # Read & Manipulate Data -------------------------------------------------------
 read.data <- function() {
         
-        products <- read.xlsx2("C:/bikes.xlsx", sheetIndex = 1,
+        products <- read.xlsx2("bikes.xlsx", sheetIndex = 1,
                                colClasses = c("numeric", "character", "character", 
                                               "character", "character", "numeric")
         )
-        customers <- read.xlsx2("C:/bikeshops.xlsx", sheetIndex = 1,
+        customers <- read.xlsx2("bikeshops.xlsx", sheetIndex = 1,
                                 colClasses = c("numeric", "character", "character", 
                                                "character", "numeric", "numeric")
         )
-        orders <- read.xlsx2("C:/orders.xlsx", sheetIndex = 1, colIndex = 2:7,
+        orders <- read.xlsx2("orders.xlsx", sheetIndex = 1, colIndex = 2:7,
                              colClasses = c("numeric", "numeric", "Date", "numeric", 
                                             "numeric", "numeric")
         )

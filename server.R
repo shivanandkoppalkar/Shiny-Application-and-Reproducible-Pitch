@@ -15,7 +15,7 @@ library(plotly)
 
 
 # Helper has server-side functions to read and manipulate data -----------------
-source("C:/Project/helper.R", local=T) 
+source("helper.R", local=T) 
 
 orders.extended <- read.data() # helper.R function
 
